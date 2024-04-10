@@ -35,14 +35,14 @@ function compilePug() {
 
 
 function CSScompiling() {
-    return gulp.src("src/scss/**/*.scss")
+    return gulp.src("./src/scss/**/*.scss")
         .pipe(cleanCSS())
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass({ pretty: true }).on("error",sass.logError))
         .pipe(plumber.stop())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('build/css/'))
+        .pipe(gulp.dest('build/css'))
         .pipe(browserSync.stream());
 }
 
