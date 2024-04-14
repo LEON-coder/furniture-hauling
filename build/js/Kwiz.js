@@ -7,6 +7,15 @@ let quizSecondBlock = document.querySelector('.quiz-2');
 let quizThirdBlock = document.querySelector('.quiz-3');
 let quizFourthBlock = document.querySelector('.quiz-4');
 
+
+
+// Радиокнопки квиза
+let radioButtons = document.querySelectorAll('input[type="radio"]');
+
+
+
+
+
 quizFirstButton.addEventListener('click', function () {
 quizFirstBlock.style.display = "none";
 quizSecondBlock.style.display = "flex";
@@ -21,3 +30,5 @@ quizThirdButton.addEventListener('click', function () {
 quizThirdBlock.style.display = "none";
 quizFourthBlock.style.display = "flex";
 });
+
+
