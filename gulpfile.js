@@ -49,9 +49,9 @@ function CSScompiling() {
 
 function script() {
     return gulp.src("src/js/**/*.js")
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
+        // .pipe(babel({
+        //     presets: ['@babel/env']
+        // }))
         .pipe(uglify())
         .pipe(browserSync.stream())
         .pipe(gulp.dest('build/js'));
@@ -95,4 +95,4 @@ function watcher() {
 }
 
 
-exports.default = gulp.parallel(compilePug,CSScompiling,script,watcher,convertWoff2,imageCompressing);
+exports.default = gulp.parallel(compilePug,CSScompiling,watcher,convertWoff2,imageCompressing);
