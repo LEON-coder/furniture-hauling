@@ -191,10 +191,10 @@
                 <p class="header__advertise">Восстановим прежний вид старой мебели, сохраним ваш бюджет</p>
               </div>
               <div class="header__advantages-block">
-                <div class="header__advantage"><img src="build/img/free-icon-best-price.png" alt="best-price">
+                <div class="header__advantage"><img class="header__advantage-img" src="build/img/free-icon-best-price.png" alt="best-price">
                   <p class="header__advantage_price">Самые низкие цены</p>
                 </div>
-                <div class="header__advantage"><img src="build/img/free-icon-roll.png" alt="free-icon-roll">
+                <div class="header__advantage"><img class="header__advantage-img" src="build/img/free-icon-roll.png" alt="free-icon-roll">
                   <p class="header__advantage_price">Качественные материалы</p>
                 </div>
               </div>
@@ -265,7 +265,9 @@
                     <input class="input-name" type="text" name="" placeholder="Ваше имя">
                     <input class="input-phone" type="text" name="" placeholder="Ваш номер телефона">
                     <button class="calculate-price restore-furniture-button" type="submit">Узнать стоимость</button>
-                    <p class="policy">Нажимая на кнопку, вы даете согласие на обработку</p><span class="personal-date">персональных данных</span>
+                    <div class="policy-block">
+                      <p class="policy">Нажимая на кнопку, вы даете согласие на обработку<span class="personal-date">персональных данных</span></p>
+                    </div>
                   </div>
                 </form>
               </div>
@@ -292,22 +294,22 @@
                       <div class="block-quis__select-furniture-blocks">
                         <div class="block-quis__select-furniture-blocks-wrap">
                           <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Диван</span><img src="build/img/calculate-restauration-block/sofa-grey.png" alt=""></div>
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Диван</span><img class="select-furniture-block-img-1" src="build/img/calculate-restauration-block/sofa-grey.png" alt=""></div>
                           </div>
                           <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Кресло</span><img src="build/img/calculate-restauration-block/armchair.png" alt=""></div>
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Кресло</span><img class="select-furniture-block-img-2" src="build/img/calculate-restauration-block/armchair.png" alt=""></div>
+                          </div>
+                          <div class="select-furniture-block chair-order">
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Стул</span><img class="select-furniture-block-img-3" src="build/img/calculate-restauration-block/chair.png" alt=""></div>
                           </div>
                           <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Стул</span><img src="build/img/calculate-restauration-block/chair.png" alt=""></div>
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Кровать</span><img class="select-furniture-block-img-4" src="build/img/calculate-restauration-block/sofa-2.png" alt=""></div>
                           </div>
                           <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Кровать</span><img src="build/img/calculate-restauration-block/sofa-2.png" alt=""></div>
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Угловой диван</span><img class="select-furniture-block-img-5" src="build/img/calculate-restauration-block/corner sofa.png" alt=""></div>
                           </div>
                           <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Угловой диван</span><img src="build/img/calculate-restauration-block/corner sofa.png" alt=""></div>
-                          </div>
-                          <div class="select-furniture-block">
-                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Другое</span><img src="build/img/calculate-restauration-block/other.png" alt=""></div>
+                            <div class="select-furniture-block-inside"><span class="select-furniture-block_text">Другое</span><img class="select-furniture-block-img-6" src="build/img/calculate-restauration-block/other.png" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -437,7 +439,7 @@
                       <div class="block-quis__select-furniture-blocks">
                         <div class="select-furniture-radio-block"><span class="select-furniture-block__text">Класс:</span>
                           <div class="select-furniture-block__block-choose-wrap">
-                            <div class="select-furniture-block__block-choose">
+                            <div class="select-furniture-block__block-choose before-800">
                               <div class="select-furniture-block__choose">
                                 <input class="select-furniture-block__input" id="low-class" type="radio" value="low" name="quise-radiobutton-3">
                                 <div class="select-furniture-block__names">
@@ -446,7 +448,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="select-furniture-block__block-choose">
+                            <div class="select-furniture-block__block-choose class-800-1000">
                               <div class="select-furniture-block__choose two-places">
                                 <input class="select-furniture-block__input" id="middle-class" type="radio" value="middle" name="quise-radiobutton-3">
                                 <div class="select-furniture-block__names">
@@ -455,7 +457,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="select-furniture-block__block-choose">
+                            <div class="select-furniture-block__block-choose luxe-from-1000">
                               <div class="select-furniture-block__choose">
                                 <input class="select-furniture-block__input" id="luxe" type="radio" value="luxe" name="quise-radiobutton-3">
                                 <div class="select-furniture-block__names">
@@ -518,33 +520,53 @@
         </div>
         <div class="our-results">
           <div class="our-results-wrap">
-            <div class="content">
-              <h2 class="our-results__headline">Мы в цифрах:</h2>
-              <div class="our-results-blocks">
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/11_years.png" alt="circle"></div>
-                  <p class="our-results-block__describe">  11 лет непрерывной работы</p>
+            <h2 class="our-results__headline">Мы в цифрах:</h2>
+            <div class="our-results-blocks">
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img eleven_years">
+                    <source srcset="build/img/our-results/11_years_mobile.png" media="(max-width:425px)"><img src="build/img/our-results/11_years.png" alt="">
+                  </picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png">
                 </div>
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/factory_pic.png" alt="circle"></div>
-                  <p class="our-results-block__describe">Три производственных цеха общей площадью 400 м2</p>
+                <p class="our-results-block__describe">  11 лет непрерывной работы</p>
+              </div>
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img factory_pic">
+                    <source srcset="build/img/our-results/factory_pic_mobile.png" media="(max-width:425px)"><img class="our-results__picture" src="build/img/our-results/factory_pic.png" alt="circle">
+                  </picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle">
                 </div>
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/cardboard-house-and-repair-tools.png" alt="circle"></div>
-                  <p class="our-results-block__describe">Более 5000 выполненных заказов</p>
+                <p class="our-results-block__describe">Три производственных цеха общей площадью 400 м2</p>
+              </div>
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img repair-tools">
+                    <source srcset="build/img/our-results/cardboard-house-and-repair-tools_mobile.png" media="(max-width:425px)"><img class="our-results__picture" src="build/img/our-results/cardboard-house-and-repair-tools.png" alt="circle">
+                  </picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle">
                 </div>
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/masters_pic.png" alt="circle"></div>
-                  <p class="our-results-block__describe">Мастера с опытом более 5 лет</p>
+                <p class="our-results-block__describe">Более 5000 выполненных заказов</p>
+              </div>
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img masters_pic">
+                    <source srcset="build/img/our-results/masters_pic_mobile.png" media="(max-width:425px)"><img class="our-results__picture" src="build/img/our-results/masters_pic.png" alt="circle">
+                  </picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle">
                 </div>
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/front-view-of-happy-male-worker-in-yellow-uniform.png" alt="circle"></div>
-                  <p class="our-results-block__describe">6 дней - средний срок выполнения заказа</p>
+                <p class="our-results-block__describe">Мастера с опытом более 5 лет</p>
+              </div>
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img yellow-uniform"><img class="our-results__picture" src="build/img/our-results/front-view-of-happy-male-worker-in-yellow-uniform.png" alt="circle"></picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle">
                 </div>
-                <div class="our-results-block">
-                  <div class="our-results-block__picture-block"><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle"><img class="our-results__picture" src="build/img/our-results/concept-of-economy-with-piggy.png" alt="circle"></div>
-                  <p class="our-results-block__describe">Экономия до 70% от стоимости новой мебели</p>
+                <p class="our-results-block__describe">6 дней - средний срок выполнения заказа</p>
+              </div>
+              <div class="our-results-block">
+                <div class="our-results-block__picture-block">
+                  <picture class="our-results-block__img economy">
+                    <source srcset="build/img/our-results/concept-of-economy-with-piggy_mobile.png" media="(max-width:425px)"><img class="our-results__picture" src="build/img/our-results/concept-of-economy-with-piggy.png" alt="circle">
+                  </picture><img class="our-results__circle-back" src="build/img/our-results/circle_back.png" alt="circle">
                 </div>
+                <p class="our-results-block__describe">Экономия до 70% от стоимости новой мебели</p>
               </div>
             </div>
           </div>
