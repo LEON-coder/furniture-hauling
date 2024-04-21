@@ -14,7 +14,7 @@ let flag = true;
 const initSlider = () => {
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../../build/Slider/images/' + images[activeImage];
+  img.src = 'build/Slider/images/' + images[activeImage];
   sliderPlace.append(img);
   nextImageGenerate();
   prevImageGenerate();
@@ -25,7 +25,7 @@ const nextImageGenerate = () => {
   if (nextImage >= images.length) nextImage = 0;
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../../build/Slider/images/' + images[nextImage];
+  img.src = 'build/Slider/images/' + images[nextImage];
   sliderPlace.append(img);
 }
 
@@ -34,7 +34,7 @@ const prevImageGenerate = (w = false) => {
   if (prevImage < 0) prevImage = images.length - 1;
   const img = document.createElement('img');
   img.alt = '';
-  img.src = '../../build/Slider/images/' + images[prevImage];
+  img.src = 'build/Slider/images/' + images[prevImage];
   sliderPlace.prepend(img);
 }
 

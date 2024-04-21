@@ -61,7 +61,37 @@ display: none;
   align-items: center;
   width: 30px;
   height: 30px;
-  display: flex;
+display: flex;
 
-  background-image: url('images/arrow-right.png');
+
+background-image: url('images/arrow-right.png');
+
+}
+
+@media screen and (max-width: 425px) {
+  .slider {
+    position: relative;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    max-width: 640px;
+  }
+
+  .slider-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 640px;
+    margin-top: 30px;
+  }
+
+  .slider img {
+    width: 90px;
+    height: 210px;
+    margin-right: 15px;
+  }
 }
