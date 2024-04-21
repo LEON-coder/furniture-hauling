@@ -19,7 +19,10 @@
   width: 100%;
   max-width: 640px;
   margin-top: 30px;
+display: none;
+
 }
+
 
 .slider-line {
   position: relative;
