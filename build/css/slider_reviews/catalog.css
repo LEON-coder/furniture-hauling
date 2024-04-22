@@ -3928,12 +3928,6 @@
  		max-width: 425px;
  	}
 
- 	#offers {
- 		width  : 100%;
- 		margin : 0;
- 		display: contents;
- 	}
-
  	.offers__header {
  		width          : 100%;
  		margin         : 0 auto;

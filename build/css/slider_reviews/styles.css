@@ -1350,11 +1350,6 @@ h1 {
   }
 }
 
-#offers {
-  margin: 30px 0;
-  width : 100%;
-}
-
 .offers__header {
   display    : flex;
   align-items: center;
@@ -1366,13 +1361,6 @@ h1 {
     margin   : 0 auto;
     flex-wrap: wrap;
   }
-}
-
-.offers__arrows {
-  width          : 83px;
-  display        : flex;
-  justify-content: space-between;
-  margin-right   : 76px;
 }
 
 .offers__title {
@@ -1889,13 +1877,6 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .offers__arrows {
-    width          : 83px;
-    display        : flex;
-    justify-content: space-between;
-    margin-right   : 0;
-  }
-
   #maintenance {
     margin       : 60px 0;
     width        : 100%;
@@ -2243,13 +2224,6 @@ h2 {
     line-height  : normal;
     height       : auto;
     margin-bottom: 30px;
-  }
-
-  .offers__arrows {
-    width          : 83px;
-    display        : flex;
-    justify-content: space-between;
-    margin-right   : 0;
   }
 
   #maintenance {
