@@ -3158,10 +3158,7 @@ summary {
   .reviews__slider-content-block {
     width: 100%;
   }
-  .reviews__slider-content {
-    width: 403px;
-    height: 397px;
-  }
+
   .slider-content-block {
     width: 100%;
   }
@@ -3677,16 +3674,7 @@ summary {
     width: 186px;
     margin-top: 27px;
   }
-  .reviews__wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 57px;
-    align-items: center;
-    position: relative;
-    max-width: 1183px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
+
   .reviews__slider {
     width: 100%;
     align-items: center;
@@ -4882,16 +4870,7 @@ summary {
     width: 186px;
     margin-top: 27px;
   }
-  .reviews__wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 57px;
-    align-items: center;
-    position: relative;
-    max-width: 1183px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
+
   .reviews__slider {
     display: flex;
     justify-content: center;
@@ -6083,16 +6062,7 @@ summary {
     width: 186px;
     margin-top: 27px;
   }
-  .reviews__wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 57px;
-    align-items: center;
-    position: relative;
-    max-width: 1183px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
+
   .reviews__slider {
     display: flex;
     justify-content: center;
@@ -6120,15 +6090,7 @@ summary {
   .update-old-furniture__shadow:hover {
     box-shadow: 6px 3px 3px 0 rgba(0, 0, 0, 0.25);
   }
-  .reviews__image-hammer {
-    display: flex;
-    position: absolute;
-    top: -70px;
-    right: -47px;
-    width: 66px;
-    height: 63px;
-    transform: rotate(-75deg);
-  }
+
   .reviews__slider-left-block, .reviews__slider-right-block {
     border-radius: 3px;
     width: 32px;
@@ -7218,16 +7180,7 @@ summary {
     width: 186px;
     margin-top: 27px;
   }
-  .reviews__wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 57px;
-    align-items: center;
-    position: relative;
-    max-width: 1183px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
+
   .reviews__slider {
     display: flex;
     justify-content: center;
@@ -7268,15 +7221,7 @@ summary {
   .update-old-furniture__shadow:hover {
     box-shadow: 6px 3px 3px 0 rgba(0, 0, 0, 0.25);
   }
-  .reviews__image-hammer {
-    display: flex;
-    position: absolute;
-    top: -70px;
-    right: -47px;
-    width: 66px;
-    height: 63px;
-    transform: rotate(-75deg);
-  }
+
   .reviews__slider-left-block, .reviews__slider-right-block {
     border-radius: 3px;
     width: 32px;
