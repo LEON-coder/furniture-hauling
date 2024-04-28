@@ -424,7 +424,7 @@ th {
 }
 
 label {
-  display: inline-block;
+    display: inline-flex;
 }
 
 button {

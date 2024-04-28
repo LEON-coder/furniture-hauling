@@ -54,12 +54,12 @@
         </div>
       </div>
       <div class="restore-furniture__block-picture_calculate-price-block">
-        <form class="restore-furniture__block-picture_calculate-price-block-wrap">
+        <form class="restore-furniture__block-picture_calculate-price-block-wrap" action="restoreFurniture.php" method="POST">
           <h2 class="know-price-text">Хотите узнать стоимость?</h2><span class="calculate-price-block_subline">Оставьте заявку и мы перезвоним Вам через 5 минут</span>
           <div class="form__block-inputs">
-            <input class="input-name" type="text" name="" placeholder="Ваше имя"/>
-            <input class="input-phone" type="text" name="" placeholder="Ваш номер телефона"/>
-            <button class="calculate-price restore-furniture-button" type="submit">Узнать стоимость</button>
+            <input class="input-name" type="text" name="name" placeholder="Ваше имя"/>
+            <input class="input-phone" type="tel" name="phone" placeholder="Ваш номер телефона"/>
+            <button class="calculate-price restore-furniture-button" type="submit" name="button-submit">Узнать стоимость</button>
             <div class="policy-block">
               <p class="policy">Нажимая на кнопку, вы даете согласие на обработку<span class="personal-date">персональных данных</span></p>
             </div>

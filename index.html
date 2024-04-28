@@ -263,12 +263,12 @@
                   </div>
                 </div>
                 <div class="restore-furniture__block-picture_calculate-price-block">
-                  <form class="restore-furniture__block-picture_calculate-price-block-wrap">
+                  <form class="restore-furniture__block-picture_calculate-price-block-wrap" action="restoreFurniture.php" method="POST">
                     <h2 class="know-price-text">Хотите узнать стоимость?</h2><span class="calculate-price-block_subline">Оставьте заявку и мы перезвоним Вам через 5 минут</span>
                     <div class="form__block-inputs">
-                      <input class="input-name" type="text" name="" placeholder="Ваше имя">
-                      <input class="input-phone" type="text" name="" placeholder="Ваш номер телефона">
-                      <button class="calculate-price restore-furniture-button" type="submit">Узнать стоимость</button>
+                      <input class="input-name" type="text" name="name" placeholder="Ваше имя">
+                      <input class="input-phone" type="tel" name="phone" placeholder="Ваш номер телефона">
+                      <button class="calculate-price restore-furniture-button" type="submit" name="button-submit">Узнать стоимость</button>
                       <div class="policy-block">
                         <p class="policy">Нажимая на кнопку, вы даете согласие на обработку<span class="personal-date">персональных данных</span></p>
                       </div>
@@ -345,50 +345,41 @@
                             <div class="select-furniture-block__block-choose">
                               <div class="select-furniture-block__choose">
                                 <input class="select-furniture-block__input" id="small" type="radio" value="small" name="quise-radiobutton-2">
-                                <div class="select-furniture-block__names">
-                                  <label class="select-furniture-block__input-name" for="small">Маленький</label>
-                                  <label class="select-furniture-block__input--describe" for="Маленький">2 местный</label>
-                                </div>
+                                <label class="select-furniture-block__input-name width-input" for="small">Маленький <br> 2 местный</label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose">
                               <div class="select-furniture-block__choose two-places">
                                 <input class="select-furniture-block__input" id="middle" type="radio" value="middle" name="quise-radiobutton-2">
-                                <div class="select-furniture-block__names">
-                                  <label class="select-furniture-block__input-name" for="middle">Средний</label>
-                                  <label class="select-furniture-block__input--describe" for="Средний">2-3 местный</label>
-                                </div>
+                                <label class="select-furniture-block__input-name" for="middle">Средний 2-3 местный</label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose">
                               <div class="select-furniture-block__choose">
                                 <input class="select-furniture-block__input" id="big" type="radio" value="big" name="quise-radiobutton-2">
-                                <div class="select-furniture-block__names">
-                                  <label class="select-furniture-block__input-name" for="big">Большой</label>
-                                  <label class="select-furniture-block__input--describe" for="Большой">4-5 местный</label>
-                                </div>
+                                <label class="select-furniture-block__input-name" for="big">Большой 4-5 местный</label>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="select-furniture-radio-block"><span class="select-furniture-block__text">Пышность мебели:</span>
                           <div class="select-furniture-block__block-choose-wrap">
-                            <div class="select-furniture-block__block-choose">
-                              <input class="select-furniture-block__input" id="no" type="radio" value="not" name="quise-radiobutton-2-2">
-                              <div class="select-furniture-block__input-wrap">
-                                <label class="select-furniture-block__input-name" for="no">Нет</label>
+                            <div class="select-furniture-block__block-choose width-input">
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input" id="no" type="radio" value="not" name="quise-radiobutton-2-2">
+                                <label class="select-furniture-block__input-name width-input margin-top-input" for="no">Нет</label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose middle-lash">
-                              <input class="select-furniture-block__input" id="middle-lash-value" type="radio" value="middle-lash" name="quise-radiobutton-2-2">
-                              <div class="select-furniture-block__input-wrap">
-                                <label class="select-furniture-block__input-name" for="middle-lash-value">Средняя</label>
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input" id="middle-lash-value" type="radio" value="middle-lash" name="quise-radiobutton-2-2">
+                                <label class="select-furniture-block__input-name margin-top-input" for="middle-lash-value">Средняя</label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose lush">
-                              <input class="select-furniture-block__input" id="lush" type="radio" value="lush" name="quise-radiobutton-2-2">
-                              <div class="select-furniture-block__input-wrap">
-                                <label class="select-furniture-block__input-name" for="lush">Пышная</label>
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input" id="lush" type="radio" value="lush" name="quise-radiobutton-2-2">
+                                <label class="select-furniture-block__input-name margin-top-input" for="lush">Пышная</label>
                               </div>
                             </div>
                           </div>
@@ -396,23 +387,25 @@
                         <div class="select-furniture-radio-block"><span class="select-furniture-block__text">Замена наполнителя:</span>
                           <div class="select-furniture-block__block-choose-wrap">
                             <div class="select-furniture-block__block-choose">
-                              <input class="select-furniture-block__input" id="not-require" type="radio" name="quise-radiobutton-2-3" value="Не требуется">
-                              <div class="select-furniture-block__names">
-                                <label class="select-furniture-block__input-name" for="not-require">Не требуется</label>
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input" id="not-require" type="radio" name="quise-radiobutton-2-3" value="Не требуется">
+                                <label class="select-furniture-block__input-name width-input margin-top-input" for="not-require">Не требуется</label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose modify-2">
-                              <input class="select-furniture-block__input" id="partly" type="radio" name="quise-radiobutton-2-3" value="частично">
-                              <div class="select-furniture-block__names">
-                                <label class="select-furniture-block__input-name partly-restore" for="partly">Частичное восстановление</label>
-                                <label class="select-furniture-block__input-name partly-restore-mobile" for="partly">Частичное</label>
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input partly-vertical-align" id="partly" type="radio" name="quise-radiobutton-2-3" value="частично">
+                                <label class="select-furniture-block__input-name partly-restore" for="partly">Частичное восстановление
+                                  <label class="select-furniture-block__input-name partly-restore-mobile" for="partly">Частичное</label>
+                                </label>
                               </div>
                             </div>
                             <div class="select-furniture-block__block-choose modify-3">
-                              <input class="select-furniture-block__input" id="full-restore" type="radio" name="quise-radiobutton-2-3" value="Полная замена">
-                              <div class="select-furniture-block__names">
-                                <label class="select-furniture-block__input-name all-restore" for="full-restore">Полная замена всех слоев</label>
-                                <label class="select-furniture-block__input-name all-restore-mobile" for="full-restore">Полная</label>
+                              <div class="select-furniture-block__choose">
+                                <input class="select-furniture-block__input" id="full-restore" type="radio" name="quise-radiobutton-2-3" value="Полная замена">
+                                <label class="select-furniture-block__input-name all-restore" for="full-restore">Полная замена всех слоев
+                                  <label class="select-furniture-block__input-name all-restore-mobile" for="full-restore">Полная</label>
+                                </label>
                               </div>
                             </div>
                           </div>
@@ -448,31 +441,22 @@
                         <div class="block-quis__select-furniture-blocks">
                           <div class="select-furniture-radio-block"><span class="select-furniture-block__text">Класс:</span>
                             <div class="select-furniture-block__block-choose-wrap">
-                              <div class="select-furniture-block__block-choose before-800">
+                              <div class="select-furniture-block__block-choose">
                                 <div class="select-furniture-block__choose">
                                   <input class="select-furniture-block__input" id="low-class" type="radio" value="low" name="quise-radiobutton-3">
-                                  <div class="select-furniture-block__names">
-                                    <label class="select-furniture-block__input-name" id="low-class" for="low-class">Низкий</label>
-                                    <label class="select-furniture-block__input--describe" for="low-class">(до 800 р/м)</label>
-                                  </div>
+                                  <label class="select-furniture-block__input-name before-800" id="low-class" for="low-class">Низкий <br> (до 800 р/м)</label>
                                 </div>
                               </div>
-                              <div class="select-furniture-block__block-choose class-800-1000">
-                                <div class="select-furniture-block__choose two-places">
+                              <div class="select-furniture-block__block-choose">
+                                <div class="select-furniture-block__choose">
                                   <input class="select-furniture-block__input" id="middle-class" type="radio" value="middle" name="quise-radiobutton-3">
-                                  <div class="select-furniture-block__names">
-                                    <label class="select-furniture-block__input-name middle-class" for="middle-class">Средний</label>
-                                    <label class="select-furniture-block__input--describe" for="middle-class">(800-1000 р/м)</label>
-                                  </div>
+                                  <label class="select-furniture-block__input-name middle-class class-800-1000" for="middle-class">Средний <br> (800-1000 р/м)</label>
                                 </div>
                               </div>
-                              <div class="select-furniture-block__block-choose luxe-from-1000">
+                              <div class="select-furniture-block__block-choose">
                                 <div class="select-furniture-block__choose">
                                   <input class="select-furniture-block__input" id="luxe" type="radio" value="luxe" name="quise-radiobutton-3">
-                                  <div class="select-furniture-block__names">
-                                    <label class="select-furniture-block__input-name luxe-class" id="big-class" for="luxe">Люкс</label>
-                                    <label class="select-furniture-block__input--describe" for="luxe">(от 1000 р/м)</label>
-                                  </div>
+                                  <label class="select-furniture-block__input-name luxe-class luxe-from-1000" id="big-class" for="luxe">Люкс <br> (от 1000 р/м)</label>
                                 </div>
                               </div>
                             </div>
