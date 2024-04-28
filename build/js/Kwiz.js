@@ -10,11 +10,6 @@ let quizFourthBlock = document.querySelector('.quiz-4');
 
 
 // Радиокнопки квиза
-let radioButtons = document.querySelectorAll('input[type="radio"]');
-
-
-
-
 
 quizFirstButton.addEventListener('click', function () {
 quizFirstBlock.style.display = "none";
