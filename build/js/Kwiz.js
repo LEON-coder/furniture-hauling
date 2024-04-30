@@ -9,7 +9,7 @@ let quizFourthBlock = document.querySelector('.quiz-4');
 
 
 
-// Радиокнопки квиза
+// Переключение квиза по шагам
 
 quizFirstButton.addEventListener('click', function () {
 quizFirstBlock.style.display = "none";
@@ -25,5 +25,4 @@ quizThirdButton.addEventListener('click', function () {
 quizThirdBlock.style.display = "none";
 quizFourthBlock.style.display = "flex";
 });
-
 
