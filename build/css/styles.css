@@ -2265,7 +2265,7 @@ summary {
 .contacts-block-image {
   position: absolute;
   width: 30px;
-  height: 23px;
+  height: 23px
 }
 
 .contacts-and-map__block-all-contacts {
@@ -7868,10 +7868,8 @@ summary {
   }
 
   .header__tree {
-    right: -58px;
-    top: 260px;
-    width: 82px;
-    height: 193px
+    right: -8px;
+    top: 190px;
   }
 
   .header__sofa {
@@ -7974,9 +7972,7 @@ summary {
   .calculate-price {
     margin-bottom: 20px;
     width: 167px;
-    height: 37px;
-    font-size: 11px;
-    margin-top: 0
+    font-size: 14px;
   }
 
   .calculate-restauration-block-wrap {
@@ -8142,21 +8138,9 @@ summary {
   }
 
   .policy {
-    font-size: 9px;
-    line-height: 122%;
-    margin-top: 0;
-    margin-bottom: 14px
+    font-size: 12px;
   }
 
-  .policy-block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 315px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 14px
-  }
 
   .furniture {
     font-size: 32px
@@ -8168,15 +8152,11 @@ summary {
   }
 
   .header__advantage {
-    display: flex;
-    align-items: center;
-    margin-right: 19px;
-    width: 92px;
-    height: auto
+    width: 112px;
   }
 
   .header__advantage_price {
-    font-size: 9px
+    font-size: 12px
   }
 
   .header__advantage img {
@@ -8467,7 +8447,8 @@ summary {
   }
 
   .restore-furniture__delivery:nth-child(2) {
-    width: 50%
+    width: auto;
+    font-size: 1rem;
   }
 
   .restore-furniture__blocks-wrap {
@@ -8510,10 +8491,7 @@ summary {
   }
 
   .calculate-price-block_subline {
-    max-width: 260px;
-    margin-top: 20px;
-    font-size: 12px;
-    line-height: 143%
+    font-size: 1rem;
   }
 
   .form__block-inputs {
@@ -8528,12 +8506,7 @@ summary {
   }
 
   .personal-date {
-    color: #085bbd;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 122%;
-    text-align: center
+    font-size: 12px;
   }
 
   .calculate-restauration-block__headline {
@@ -8586,7 +8559,8 @@ summary {
   }
 
   .label-img-text {
-    font-size: 12px
+    font-size: 14px;
+    font-weight: 600;
   }
 
   .label-picture {
