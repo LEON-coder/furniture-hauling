@@ -3,11 +3,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 
 $RadioButtonImg = $_POST["quise-radiobutton-img"];
-foreach ($RadioButtonImg as $item) echo "$item<br />";
+foreach ($RadioButtonImg as $item) echo "$item<br >";
 $RadioButton2 = $_POST["quise-radiobutton-2"];
-foreach ($RadioButton2 as $item) echo "$item<br />";
+foreach ($RadioButton2 as $item) echo "$item<br >";
 $RadioButton3 = $_POST["quise-radiobutton-3"];
-foreach ($RadioButton3 as $item) echo "$item<br />";
+foreach ($RadioButton3 as $item) echo "$item<br >";
 
 $name = $_POST('name');
 $phone = $_POST('phone');
