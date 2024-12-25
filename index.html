@@ -143,34 +143,34 @@
                       <div class="block-quis__select-furniture-block">
                         <h4 class="select-furniture-block__headline">Выберите тип мебели</h4>
                         <div class="block-quis__select-furniture-blocks">
-                          <div class="block-quis__select-furniture-blocks-wrap">                 
+                          <div class="block-quis__select-furniture-blocks-wrap">
                             <input class="radiobutton-img" id="img-1" type="radio" name="quise-radiobutton-img" value="Диван">
-                            <label class="img-label" for="img-1"> 
+                            <label class="img-label" for="img-1">
                               <span class="label-block"><span class="label-img-text">Диван</span><img class="label-picture" src="build/img/calculate-restauration-block/sofa.png" alt="sofa-grey"></span>
                             </label>
                             <input class="radiobutton-img" id="img-2" type="radio" name="quise-radiobutton-img" value="Кресло">
-                            <label class="img-label" for="img-2"> 
+                            <label class="img-label" for="img-2">
                               <span class="label-block"><span class="label-img-text">Кресло</span><img class="label-picture" src="build/img/calculate-restauration-block/chair.png" alt="sofa-grey"></span>
                             </label>
                             <input class="radiobutton-img" id="img-3" type="radio" name="quise-radiobutton-img" value="Стул">
-                            <label class="img-label" for="img-3"> 
+                            <label class="img-label" for="img-3">
                               <span class="label-block"><span class="label-img-text">Стул</span><img class="label-picture" src="build/img/calculate-restauration-block/armchair.png" alt="sofa-grey"></span>
                             </label>
                             <input class="radiobutton-img" id="img-4" type="radio" name="quise-radiobutton-img" value="Кровать">
-                            <label class="img-label" for="img-4"> 
+                            <label class="img-label" for="img-4">
                               <span class="label-block"><span class="label-img-text">Кровать</span><img class="label-picture" src="build/img/calculate-restauration-block/sofa-2.png" alt="sofa-grey"></span>
                             </label>
                             <input class="radiobutton-img" id="img-5" type="radio" name="quise-radiobutton-img" value="Угловой диван">
-                            <label class="img-label" for="img-5"> 
+                            <label class="img-label" for="img-5">
                               <span class="label-block"><span class="label-img-text">Угловой диван</span><img class="label-picture" src="build/img/calculate-restauration-block/corner_sofa.png" alt="sofa-grey"></span>
                             </label>
                             <input class="radiobutton-img" id="img-6" type="radio" name="quise-radiobutton-img" value="Другое">
-                            <label class="img-label" for="img-6"> 
+                            <label class="img-label" for="img-6">
                               <span class="label-block"><span class="label-img-text">Другое</span><img class="label-picture" src="build/img/calculate-restauration-block/other.png" alt="sofa-grey"></span>
                             </label>
                           </div>
                         </div>
-                        <button class="block-quis__button quiz-button-1">Продолжить</button>
+                        <button type="button" class="block-quis__button quiz-button-1">Продолжить</button>
                       </div>
                     </div>
                   </div>
@@ -261,7 +261,7 @@
                           </div>
                         </div>
                       </div>
-                      <button class="block-quis__button quiz-button-2">Продолжить</button>
+                      <button type="button" class="block-quis__button quiz-button-2">Продолжить</button>
                     </div>
                   </div>
                 </div>
@@ -280,8 +280,8 @@
                       <div class="block-quis__select-furniture-block"><span class="select-furniture-block__headline">Материалы мебели</span></div>
                       <div class="select-quis-3-block-wrap">
                         <div class="select-quis-3-block">
-                          <h3 class="select-quis-3-headline">Материалы:</h3>                          
-                          <select class="select-quis-3 custom-select" name="selecting">                           
+                          <h3 class="select-quis-3-headline">Материалы:</h3>
+                          <select class="select-quis-3 custom-select" name="selecting">
                             <option>Классика</option>
                             <option>Модерн</option>
                             <option>Авангард</option>
@@ -347,8 +347,8 @@
                           <form class="block-quis__quis-4-order-block" action="send_quiz.php" method="POST">
                             <h3 class="quis-3-order-block__headline">Оформить заказ</h3>
                             <div class="block-quis__quis-4-order-block__block-inputs">
-                              <input class="quis-input-4" type="text" name="quis-input-4" placeholder="Ваше имя" value="Имя">
-                              <input class="quis-input-4" type="text" name="quis-input-4" placeholder="Ваш номер телефона" value="номер телефона">
+                              <input class="quis-input-4" type="text" name="Ваше имя" placeholder="Ваше имя" value="Имя">
+                              <input class="quis-input-4" type="text" name="Ваш номер телефона" placeholder="Ваш номер телефона" value="номер телефона">
                               <button class="quis-4-order-block__button-form button_send_quiz" type="submit">Продолжить</button>
                             </div>
                           </form>
@@ -500,8 +500,12 @@
                   <div class="slider-line"></div>
                 </div>
                 <div class="slider-controls">
-                  <button class="prev-button"></button>
-                  <button class="next-button"></button>
+                  <button type="button" class="prev-button">
+                    <img src="build/Slider/images/arrow-left.png" alt="">
+                  </button>
+                  <button type="button" class="next-button">
+                     <img src="build/Slider/images/arrow-right.png" alt="">
+                  </button>
                 </div>
               </div>
               <div class="our-materials__materials-blocks">
@@ -566,7 +570,7 @@
                       <p class="step-restauration-block-describe-5">Доставка новой мебели к Вам домой</p>
                     </div>
                   </div>
-                  <button class="how-we-works-button">Вызвать замерщика</button>
+                  <button type="button" class="how-we-works-button">Вызвать замерщика</button>
                 </div>
               </div>
             </div>
@@ -685,7 +689,7 @@
                 <h2 class="contacts-and-map__contacts"> Контакты</h2>
                 <div class="contacts-and-map__block-all-contacts">
                   <div class="contacts-and-map__phone-block">
-                    <div class="contacts-block"><img class="back__contacts" src="build/img/contacts-and-map/back__contacts.png" alt=""><img class="contacts-block-image" src="build/img/contacts-and-map/phone.svg" alt=""></div><a class="contacts-and-map__phone" href="tel:+38(093)274-00-95">+38 (093) 274-00-95</a>
+                    <div class="contacts-block"><img class="back__contacts" src="build/img/contacts-and-map/back__contacts.png" alt=""><img class="contacts-block-image" src="build/img/contacts-and-map/phone.svg" alt=""></div><a class="contacts-and-map__phone" href="tel:+38(093)274-00-95">+38&nbsp;(093)&nbsp;274-00-95</a>
                   </div>
                   <div class="contacts-and-map__addres-block">
                     <div class="contacts-block"><img class="back__contacts" src="build/img/contacts-and-map/back__contacts.png" alt=""><img class="contacts-block-image" src="build/img/contacts-and-map/location_icon.svg" alt=""></div><span class="contacts-and-map__address">г.Харьков, ул.Приморская 2</span>

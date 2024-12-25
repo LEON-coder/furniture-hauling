@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 640px;
   margin-top: 30px;
-display: none;
+  display: none;
 
 }
 
@@ -52,8 +52,8 @@ display: none;
   width: 30px;
   height: 30px;
   display: flex;
-  background-image: url('images/arrow-left.png');
 }
+
 .next-button {
   border: none;
   border-radius: 50%;
@@ -61,11 +61,7 @@ display: none;
   align-items: center;
   width: 30px;
   height: 30px;
-display: flex;
-
-
-background-image: url('images/arrow-right.png');
-
+  display: flex;
 }
 
 @media screen and (max-width: 425px) {
