@@ -82,7 +82,7 @@
   font-style         : normal;
   font-weight        : 400;
   line-height        : normal;
-  background         : url("down_arrow.WEBP"), #FFF;
+  background         : url("down_arrow.webp"), #FFF;
   background-repeat  : no-repeat;
   background-position: right 1rem center;
 }
@@ -929,7 +929,7 @@ h1 {
 .ad {
   display            : flex;
   height             : 130.002685546875px;
-  background         : url(../images/ad.WEBP);
+  background         : url(../images/ad.webp);
   width              : 100%;
   background-position: center;
 }
@@ -2063,7 +2063,7 @@ h2 {
 
   .ad {
     height             : 130.002685546875px;
-    background         : url(../images/ad.WEBP);
+    background         : url(../images/ad.webp);
     width              : 100%;
     background-position: center;
   }

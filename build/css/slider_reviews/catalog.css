@@ -55,7 +55,7 @@
 
  .ad__img-mobile {
  	height             : 130.002685546875px;
- 	background         : url(../images/catalog_page/header/ad-image-mobile.WEBP);
+ 	background         : url(../images/catalog_page/header/ad-image-mobile.webp);
  	width              : 100%;
  	background-position: center;
  }
@@ -1086,7 +1086,7 @@
  	width      : 262px;
  	height     : 524px;
  	flex-shrink: 0;
- 	background : url(../images/catalog_page/block-models-auto__advertisements.WEBP);
+ 	background : url(../images/catalog_page/block-models-auto__advertisements.webp);
  	margin-top : 20px;
  }
 
@@ -1312,7 +1312,7 @@
  	height       : 295px;
  	flex-shrink  : 0;
  	border-radius: 7px;
- 	background   : url(../images/catalog_page/block-advertisement/tinkoff.WEBP), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
+ 	background   : url(../images/catalog_page/block-advertisement/tinkoff.webp), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
  	margin-top   : 29px;
  	margin-bottom: 29px;
  }
@@ -1450,7 +1450,7 @@
  		height       : 295px;
  		flex-shrink  : 0;
  		border-radius: 7px;
- 		background   : url(../images/catalog_page/block-advertisement/tinkoff.WEBP), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
+ 		background   : url(../images/catalog_page/block-advertisement/tinkoff.webp), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
  		margin-top   : 29px;
  		margin-bottom: 29px;
  	}
@@ -1599,7 +1599,7 @@
  		height       : 295px;
  		flex-shrink  : 0;
  		border-radius: 7px;
- 		background   : url(../images/catalog_page/block-advertisement/tinkoff.WEBP), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
+ 		background   : url(../images/catalog_page/block-advertisement/tinkoff.webp), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
  		margin-top   : 29px;
  	}
 
@@ -1786,7 +1786,7 @@
  		height       : 295px;
  		flex-shrink  : 0;
  		border-radius: 7px;
- 		background   : url(../images/catalog_page/block-advertisement/tinkoff.WEBP), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
+ 		background   : url(../images/catalog_page/block-advertisement/tinkoff.webp), lightgray -11.399px -4.712px / 102.247% 103.834% no-repeat;
  		margin-top   : 29px;
  	}
 
@@ -2234,7 +2234,7 @@
  		height         : 120px;
  		flex-shrink    : 0;
  		border-radius  : 7px;
- 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.WEBP) no-repeat;
+ 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.webp) no-repeat;
  		margin-top     : 28px;
  		justify-content: center;
  		align-items    : center;
@@ -2246,7 +2246,7 @@
  		width              : 100%;
  		height             : 709px;
  		flex-shrink        : 0;
- 		background         : url(../images/catalog_page/mobile/advertisements-sber.WEBP);
+ 		background         : url(../images/catalog_page/mobile/advertisements-sber.webp);
  		background-position: center;
  		margin-top         : 40px;
  		background-repeat  : no-repeat;
@@ -2967,7 +2967,7 @@
  		height         : 120px;
  		flex-shrink    : 0;
  		border-radius  : 7px;
- 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.WEBP) no-repeat;
+ 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.webp) no-repeat;
  		margin-top     : 28px;
  		justify-content: center;
  		align-items    : center;
@@ -2979,7 +2979,7 @@
  		width              : 100%;
  		height             : 709px;
  		flex-shrink        : 0;
- 		background         : url(../images/catalog_page/mobile/advertisements-sber.WEBP);
+ 		background         : url(../images/catalog_page/mobile/advertisements-sber.webp);
  		background-position: center;
  		margin-top         : 40px;
  		background-repeat  : no-repeat;
@@ -3685,7 +3685,7 @@
  		height         : 120px;
  		flex-shrink    : 0;
  		border-radius  : 7px;
- 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.WEBP) no-repeat;
+ 		background     : url(../images/catalog_page/mobile/mobile-block-advertisement.webp) no-repeat;
  		margin-top     : 28px;
  		justify-content: center;
  		align-items    : center;
@@ -3697,7 +3697,7 @@
  		width              : 100%;
  		height             : 709px;
  		flex-shrink        : 0;
- 		background         : url(../images/catalog_page/mobile/advertisements-sber.WEBP);
+ 		background         : url(../images/catalog_page/mobile/advertisements-sber.webp);
  		background-position: center;
  		margin-top         : 40px;
  		background-repeat  : no-repeat;

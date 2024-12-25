@@ -16,7 +16,7 @@
   display: flex;
   width: 100%;
   height: 790px;
-  background: url(../../build/img/header_back.WEBP);
+  background: url(../../build/img/header_back.webp);
   background-repeat: no-repeat;
   justify-content: center;
   background-size: cover;
@@ -871,7 +871,7 @@ label:nth-child(1) {
 
 .block-quis__left {
   display: flex;
-  background: url(../../build/img/calculate-restauration-block/get_discount.WEBP);
+  background: url(../../build/img/calculate-restauration-block/get_discount.webp);
   border-radius: 18px 0 0 18px;
   width: 268px;
   height: 479px;
@@ -1844,43 +1844,43 @@ a {
 }
 
 .material--back-1 {
-  background: url("../../build/img/our-materials/Mask-group.WEBP");
+  background: url("../../build/img/our-materials/Mask-group.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-2 {
-  background: url("../../build/img/our-materials/Mask-group-2.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-2.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-3 {
-  background: url("../../build/img/our-materials/Mask-group-3.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-3.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-4 {
-  background: url("../../build/img/our-materials/Mask-group-4.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-4.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-5 {
-  background: url("../../build/img/our-materials/Mask-group-5.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-5.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-6 {
-  background: url("../../build/img/our-materials/Mask-group-6.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-6.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .material--back-7 {
-  background: url("../../build/img/our-materials/Mask-group-7.WEBP");
+  background: url("../../build/img/our-materials/Mask-group-7.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }

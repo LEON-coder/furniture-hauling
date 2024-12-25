@@ -156,7 +156,7 @@ margin-top: 70px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: url('down_arrow.WEBP'), #fff;
+  background: url('down_arrow.webp'), #fff;
   background-repeat: no-repeat;
   background-position: right 1rem center;
 }
@@ -949,7 +949,7 @@ h1 {
 .ad {
   display: flex;
   height: 130.002685546875px;
-  background: url(../images/ad.WEBP);
+  background: url(../images/ad.webp);
   width: 100%;
   background-position: center;
 }
