@@ -1,5 +1,11 @@
 const images = [
-  'Mask group.png', 'Mask group-2.png', 'Mask group-3.png', 'Mask group-4.png', 'Mask group-5.png', 'Mask group-6.png' , 'Mask group-7.png'
+  "Mask group.WEBP",
+  "Mask group-2.WEBP",
+  "Mask group-3.WEBP",
+  "Mask group-4.WEBP",
+  "Mask group-5.WEBP",
+  "Mask group-6.WEBP",
+  "Mask group-7.WEBP"
 ];
 
 let activeImage = 0;
