@@ -4676,13 +4676,8 @@ summary {
   }
 
   .how-we-works__steps-restaurations-blocks {
-    flex-direction: row;
-    align-items: center;
-    margin-top: 266px;
-    width: 100%;
+    width: 90%;
     height: auto;
-    flex-wrap: wrap;
-    justify-content: center
   }
 
   .how-we-works__headline {
@@ -4953,9 +4948,6 @@ summary {
   }
 
   .contacts-and-map__map {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
     margin-top: 70px;
   }
 
@@ -5015,7 +5007,8 @@ summary {
   }
 
   .contacts-and-map {
-    margin-top: 120px
+    margin-top: 70px;
+    padding: 0 20px;
   }
 
   .contacts-and-map__wrap {
@@ -8429,17 +8422,15 @@ summary {
   .calculate-restauration-block-quis-wrap {
     padding: 0;
     position: relative;
-    z-index: 3
+    z-index: 3;
+    margin-top: 70px;
   }
 
   .calculate-restauration-block-quis-frame {
-    position: absolute;
-    top: 140px;
-    left: -50px;
-    transform: rotate(-135deg);
+    top: 250px;
+    left: -120px;
+    transform: rotate(-305deg);
     z-index: 2;
-    width: 122.74px;
-    height: 72.93px
   }
 
   .calculate-price-block_subline {
