@@ -841,11 +841,10 @@ label:nth-child(1) {
 
 .block-quis__select-furniture-blocks {
   display: flex;
-  margin-top: 50px;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  max-width: 654px
+  max-width: 654px;
 }
 
 .question-step-2 {
@@ -970,7 +969,10 @@ label:nth-child(1) {
   font-weight: 400;
   font-size: 16px;
   color: #676767;
-  text-align: justify
+  text-align: justify;
+  width: auto;
+  line-height: normal;
+  margin-bottom: 50px;
 }
 
 .select-furniture-block__text {
