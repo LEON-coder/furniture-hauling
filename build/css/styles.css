@@ -1950,8 +1950,9 @@ a {
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: center;
-  align-items: center
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
 }
 
 .restauration-image {
@@ -2766,41 +2767,36 @@ summary {
     box-sizing: border-box
   }
 
-  .step-restauration-block:first-child {
-    height: 165px
-  }
-
   .step-restauration-block:nth-child(2) {
     margin-top: 26px;
     width: 110px;
-    height: 165px;
     margin-bottom: 26px
   }
 
   .step-restauration-block-describe-1 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-2 {
-    font-size: 12px;
+    font-size: .9rem;
     line-height: 150%;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-3 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-4 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 100px;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-5 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 140px;
     margin-top: 23px
   }
@@ -2858,7 +2854,6 @@ summary {
 
   .update-old-furniture__sketch {
     margin-top: 17px;
-    display: none
   }
 
   .update-old-furniture__shadow:hover {
@@ -3018,10 +3013,6 @@ summary {
   .calculate-restauration-block__headline {
     font-size: 22px;
     line-height: 118%
-  }
-
-  .block-quis__left {
-    display: none
   }
 
   .block-quis__scale-graduation {
@@ -4126,41 +4117,36 @@ summary {
     box-sizing: border-box
   }
 
-  .step-restauration-block:first-child {
-    height: 165px
-  }
-
   .step-restauration-block:nth-child(2) {
     margin-top: 26px;
     width: 110px;
-    height: 165px;
     margin-bottom: 26px
   }
 
   .step-restauration-block-describe-1 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-2 {
-    font-size: 12px;
+    font-size: .9rem;
     line-height: 150%;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-3 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-4 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 100px;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-5 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 140px;
     margin-top: 23px
   }
@@ -4218,7 +4204,6 @@ summary {
 
   .update-old-furniture__sketch {
     margin-top: 17px;
-    display: none
   }
 
   .update-old-furniture__shadow:hover {
@@ -4391,9 +4376,6 @@ summary {
     line-height: 118%
   }
 
-  .block-quis__left {
-    display: none
-  }
 
   .block-quis__scale-graduation {
     width: 100%
@@ -5148,21 +5130,21 @@ summary {
   }
 
   .header {
-    padding: 0 20px
+    padding: 0 20px;
+    height: auto;
   }
 
   .header__tree {
-    right: 62px;
+    right: 0px;
     top: 60px;
-    width: 120px;
-    height: 310px
+    width: 180px;
   }
 
   .header__sofa {
-    bottom: -42px;
-    right: -43px;
-    width: 216px;
-    height: 144px
+    bottom: -22px;
+    right: -15px;
+    width: 30%;
+    height: 164px;
   }
 
   .header__headline {
@@ -5221,19 +5203,8 @@ summary {
     max-width: fit-content
   }
 
-  .restore-furniture__block-picture_calculate-price-block {
-    width: 100%;
-    height: auto;
-    margin-top: 25px;
-    justify-content: center;
-    display: flex;
-    border: none
-  }
-
   .calculate-price {
-    margin-top: 42px;
-    z-index: 1;
-    margin-bottom: 119px
+    margin-bottom: 50px;
   }
 
   .block-quis-3__right-wrap {
@@ -5253,6 +5224,13 @@ summary {
     max-width: 1023px;
     width: 100%;
     padding: 0 14px
+  }
+
+  .ruler_img {
+    width: 118px;
+    height: 126px;
+    left: 90px;
+    top: -30px;
   }
 
   .calculate-restauration-block-wrap {
@@ -5486,13 +5464,6 @@ summary {
     justify-content: space-between
   }
 
-  .header__wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%
-  }
-
   .header__text-describe {
     display: flex;
     max-width: 678px;
@@ -5516,35 +5487,33 @@ summary {
   }
 
   .step-restauration-block:first-child {
-    width: 100%;
-    height: 165px
+    width: auto;
   }
 
   .step-restauration-block:nth-child(2) {
     margin-top: 26px;
     width: 110px;
-    height: 165px;
     margin-bottom: 26px
   }
 
   .step-restauration-block-describe-1 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-2 {
-    font-size: 12px;
+    font-size: .9rem;
     line-height: 150%;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-3 {
-    font-size: 12px;
+    font-size: .9rem;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-4 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 100px;
     margin-top: 23px
   }
@@ -5591,21 +5560,18 @@ summary {
     margin-top: 50px
   }
 
-  .update-old-furniture__headline {
-    font-size: 22px;
-    line-height: 118%;
-    width: 250px
-  }
-
   .update-old-furniture__describe {
     margin-top: 15px;
     font-size: 12px;
     line-height: 167%
   }
 
+  .update-old-furniture__left-block {
+    align-items: center;
+  }
+
   .update-old-furniture__sketch {
     margin-top: 17px;
-    display: none
   }
 
   .update-old-furniture__shadow:hover {
@@ -6510,17 +6476,16 @@ summary {
   }
 
   .header__tree {
-    right: 0;
-    top: 260px;
-    width: 82px;
-    height: 193px
+    right: 0px;
+    top: 60px;
+    width: 180px;
   }
 
   .header__sofa {
-    bottom: 58px;
-    right: -3px;
-    width: 216px;
-    height: 144px
+    bottom: -22px;
+    right: -15px;
+    width: 30%;
+    height: 164px;
   }
 
   .header__headline {
@@ -6850,12 +6815,6 @@ summary {
     justify-content: space-between
   }
 
-  .header__wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%
-  }
 
   .header__text-describe {
     display: flex;
@@ -6879,42 +6838,55 @@ summary {
     flex-wrap: wrap
   }
 
+  .step-restauration-block {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    min-height: 210px;
+  }
+
   .step-restauration-block:first-child {
-    width: 100%;
-    height: 165px
+    width: auto;
   }
 
   .step-restauration-block:nth-child(2) {
     margin-top: 26px;
     width: 110px;
-    height: 165px;
     margin-bottom: 26px
   }
 
   .step-restauration-block-describe-1 {
-    font-size: 12px;
-    margin-top: 23px
+    font-size: .9rem;
+    margin-top: 23px;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-2 {
-    font-size: 12px;
+    font-size: .9rem;
     line-height: 150%;
-    margin-top: 23px
+    margin-top: 23px;
+    width: auto;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-3 {
-    font-size: 12px;
-    margin-top: 23px
+    font-size: .9rem;
+    margin-top: 23px;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-4 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 100px;
-    margin-top: 23px
+    margin-top: 23px;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-5 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 140px;
     margin-top: 23px
   }
@@ -7095,7 +7067,7 @@ summary {
 
   .faq__drop-items {
     max-width: 610px;
-    width: 43vw
+    width: 100%;
   }
 
   .restore-furniture__blocks-wrap {
@@ -7437,13 +7409,6 @@ summary {
     height: 43px
   }
 
-  .our-materials__materials-blocks {
-    display: none;
-    justify-content: center;
-    margin-top: 30px;
-    width: 100%
-  }
-
   .our-made-works {
     width: 100%
   }
@@ -7609,9 +7574,7 @@ summary {
   }
 
   .update-old-furniture__left-block {
-    display: flex;
-    flex-direction: column;
-    width: 100%
+    align-items: center;
   }
 
   .update-old-furniture__shadow {
@@ -7682,17 +7645,21 @@ summary {
     margin-top: 22px
   }
 
-  .faq__drop-item--describe {
-    display: flex;
-    position: relative;
+  .faq__drop-item[open]>summary {
+    margin-bottom: 20px;
     transition: 1s;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 125%;
-    color: #000;
-    width: 100%;
-    padding-right: 34px
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+
+  .faq__drop-item--describe {
+    font-size: 0.9rem;
+  }
+
+  .faq__drop-item--describe p {
+    font-size: .5rem;
   }
 
   .faq__drop-item {
@@ -7721,29 +7688,29 @@ summary {
   }
 
   .contacts-and-map {
-    display: flex;
-    width: 100%;
-    margin-top: 49px;
-    justify-content: center
+    border-radius: 16px;
+    background: #fff;
+    stroke-width: .94px;
+    box-shadow: 8px 4px 4px 0 rgba(0, 0, 0, .25);
+    align-items: center;
+    padding: 0 10px;
   }
 
   .contacts-and-map__wrap {
     border-radius: 16px;
     background: #fff;
     border: .94px solid rgba(125, 125, 125, .93);
-    padding-left: 30px
+    padding-left: 30px;
+    margin-bottom: 50px;
   }
 
   .contacts-and-map__contacts-block {
-    position: static;
-    border: none;
-    box-shadow: none
+    padding-left: 0;
   }
 
   .map {
     margin-left: 0;
     width: 100%;
-    display: none
   }
 
   .contacts-and-map__contacts {
@@ -7941,6 +7908,22 @@ summary {
     text-align: center;
     height: auto;
     color: #fff
+  }
+
+  .step-restauration-block:nth-child(2) {
+    width: 40%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .faq__drop-item[open]>summary {
+    margin-bottom: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
   }
 }
 
@@ -8186,63 +8169,42 @@ summary {
   }
 
   .step-restauration-block-wrap {
-    max-width: 1023px;
-    padding-left: 0;
-    padding-right: 0;
-    border-radius: 0;
-    width: 100%;
-    flex-wrap: wrap
+    gap: 10px;
   }
 
   .step-restauration-block:first-child {
-    width: 100%;
-    height: 165px
-  }
-
-  .step-restauration-block:nth-child(2) {
-    margin-top: 26px;
-    width: 110px;
-    height: 165px;
-    margin-bottom: 26px
+    width: 40%;
+    margin-bottom: 40px;
   }
 
   .step-restauration-block-describe-1 {
-    font-size: 12px;
-    margin-top: 23px
+    font-size: .9rem;
+    width: auto;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-2 {
-    font-size: 12px;
-    line-height: 150%;
-    margin-top: 23px
+    font-size: 0.9rem;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-3 {
-    font-size: 12px;
-    margin-top: 23px
+    font-size: .9rem;
+    margin-top: 23px;
+    max-width: 120px;
   }
 
   .step-restauration-block-describe-4 {
-    font-size: 12px;
+    font-size: .9rem;
     width: 100px;
     margin-top: 23px
   }
 
   .step-restauration-block-describe-5 {
-    font-size: 12px;
-    width: 140px;
-    margin-top: 23px
-  }
-
-  .step-restauration-block-describe-1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 120%;
-    text-align: center;
-    color: #303030;
-    width: 186px;
-    margin-top: 27px
+    font-size: .9rem;
+    width: 100%;
+    margin-top: 23px;
+    max-width: 120px;
   }
 
   .reviews__wrap {
@@ -9223,19 +9185,10 @@ summary {
     width: 100%
   }
 
-  .contacts-and-map__contacts-block {
-    width: 100%
-  }
-
   .our-results-block:nth-child(1),
   .our-results-block:nth-child(2),
   .our-results-block:nth-child(3) {
     margin-bottom: 16px
-  }
-
-  .map {
-    margin-left: 0;
-    width: 100%
   }
 
   .faq__headline {
@@ -9254,16 +9207,11 @@ summary {
   }
 
   .faq__drop-item--describe {
-    display: flex;
-    position: relative;
-    transition: 1s;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 125%;
-    color: #000;
-    width: 100%;
-    padding-right: 34px
+    font-size: 0.9rem;
+  }
+
+  .faq__drop-item--describe p {
+    font-size: .5rem;
   }
 
   .faq__drop-item {
@@ -9292,16 +9240,12 @@ summary {
   }
 
   .contacts-and-map {
-    display: flex;
-    width: 100%;
-    margin-top: 49px;
     border-radius: 16px;
     background: #fff;
     stroke-width: .94px;
-    border: 1px solid rgba(125, 125, 125, .93);
     box-shadow: 8px 4px 4px 0 rgba(0, 0, 0, .25);
-    justify-content: center;
-    align-items: center
+    align-items: center;
+    padding: 0 10px;
   }
 
   .contacts-and-map__addres-block,
@@ -9314,19 +9258,17 @@ summary {
   }
 
   .contacts-and-map__wrap {
-    padding-left: 0
+    padding-left: 0;
+    margin-bottom: 50px;
   }
 
   .contacts-and-map__contacts-block {
-    position: static;
-    border: none;
-    box-shadow: none
+    padding-left: 0;
   }
 
   .map {
     margin-left: 0;
     width: 100%;
-    display: none
   }
 
   .contacts-and-map__contacts {
