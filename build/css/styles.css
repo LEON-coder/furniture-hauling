@@ -6723,6 +6723,17 @@ summary {
     height: 42px
   }
 
+
+  .calculate-restauration-block-quis-frame {
+    position: absolute;
+    top: 144px;
+    left: -30px;
+    width: 245px;
+    height: 145px;
+    transform: rotate(8deg);
+    z-index: -1;
+  }
+
   .block-quis__quis-4-order-block__block-inputs {
     display: flex;
     margin-top: 33px;
@@ -7252,10 +7263,8 @@ summary {
   }
 
   .select-furniture-block__headline {
-    font-weight: 600;
     font-size: 12px;
-    line-height: 158%;
-    text-align: center
+    margin-bottom: 0;
   }
 
   .our-results-wrap {
@@ -8819,10 +8828,8 @@ summary {
   }
 
   .select-furniture-block__headline {
-    font-weight: 600;
     font-size: 12px;
-    line-height: 158%;
-    text-align: center
+    margin-bottom: 0;
   }
 
   .our-results-wrap {
